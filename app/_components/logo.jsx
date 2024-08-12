@@ -4,7 +4,7 @@ import React from 'react'
 function Logo() {
   return (
     <div className='flex items-center gap-2'>
-        {/* <Image src={'/network.png'}/> */}
+        <Image src={'/network.png'} width={30} height={30}/>
      <h2 className='font-bold text-xl'> CollabrateX </h2> 
     </div>
   )

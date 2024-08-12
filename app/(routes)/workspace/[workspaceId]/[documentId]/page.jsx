@@ -1,6 +1,8 @@
 'use client'
 import React, { useEffect } from 'react'
 import SideNav from '../../_components/SideNav'
+import DocumentList from '../../_components/DocumentList'
+import DocumentEditor from '../../_components/DocumentEditor'
 
 function WorkspaceDocument({params}) {
 
@@ -15,7 +17,7 @@ function WorkspaceDocument({params}) {
 
       {/* Document */}
       <div className='md:ml-72'>
-        Document
+        <DocumentEditor params={params}/>
       </div>
 
     </div>

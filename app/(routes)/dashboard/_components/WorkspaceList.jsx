@@ -39,7 +39,7 @@ function WorkspaceList() {
             </div>
             : 
             <div> 
-
+              <div>Workspace List</div>
             </div>
         }
       
